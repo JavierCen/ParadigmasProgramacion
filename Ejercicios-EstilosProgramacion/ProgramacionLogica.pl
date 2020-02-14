@@ -1,0 +1,10 @@
+esPadre(pedro,juan).
+esPadre(pedro,noe).
+esPadre(pedro,luis).
+esPadre(juan,rodrigo).
+esPadre(noe,paty).
+esPadre(noe,adrianito).
+esPadre(jose,luisa).
+esPadre(jose,margarita).
+esPadre(jose,marisol).
+esHijo(H,P):-esPadre(P,H).
